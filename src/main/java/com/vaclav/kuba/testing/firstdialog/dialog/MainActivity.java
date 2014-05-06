@@ -12,7 +12,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button showDialog = (Button) findViewById(R.id.search_button);
+        Button showDialog = (Button) findViewById(R.id.showDialog);
         showDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
