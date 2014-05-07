@@ -29,14 +29,17 @@ public class MainActivity extends ActionBarActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(getApplicationContext(), "YOLO FULL SWAG", Toast.LENGTH_LONG).show();
                     }
-
+                });
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(getApplicationContext(), "oh my god", Toast.LENGTH_LONG).show();
+                    }
                 });
                 builder.show();
             }
         });
     }
-
-
 
 
 }
